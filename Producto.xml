@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Productos SYSTEM "Producto.dtd">
+<Productos>
+    <Producto>
+        <raton>
+            <codigo></codigo>
+            <nombre></nombre>
+            <descripcion></descripcion>
+        </raton>
+        <teclado>
+            <codigo></codigo>
+            <nombre></nombre>
+            <descripcion></descripcion>
+        </teclado>
+        <monitor>
+            <codigo></codigo>
+            <nombre></nombre>
+            <descripcion></descripcion>
+        </monitor>
+    </Producto>
+</Productos>
