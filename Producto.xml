@@ -3,19 +3,19 @@
 <Productos>
     <Producto>
         <raton>
-            <codigo></codigo>
-            <nombre></nombre>
-            <descripcion></descripcion>
+            <codigo>01</codigo>
+            <nombre>hp</nombre>
+            <descripcion>raton grande</descripcion>
         </raton>
         <teclado>
-            <codigo></codigo>
-            <nombre></nombre>
-            <descripcion></descripcion>
+            <codigo>02</codigo>
+            <nombre>lg</nombre>
+            <descripcion>teclado pequeño</descripcion>
         </teclado>
         <monitor>
-            <codigo></codigo>
-            <nombre></nombre>
-            <descripcion></descripcion>
+            <codigo>03</codigo>
+            <nombre>samsung</nombre>
+            <descripcion>monitoe 32"</descripcion>
         </monitor>
     </Producto>
 </Productos>
