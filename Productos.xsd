@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Productos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Producto" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="raton">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="codigo"/>
+                                        <xs:element name="nombre"/>
+                                        <xs:element name="descripcion"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="teclado">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="codigo"/>
+                                        <xs:element name="nombre"/>
+                                        <xs:element name="descripcion"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="nmoonitor">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="codigo"/>
+                                        <xs:element name="nombre"/>
+                                        <xs:element name="descripcion"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
